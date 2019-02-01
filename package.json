@@ -1,0 +1,29 @@
+{
+  "name": "api1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeacademy2019-gurrehmat-oberoi/assignment2API1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeacademy2019-gurrehmat-oberoi/assignment2API1/issues"
+  },
+  "homepage": "https://github.com/codeacademy2019-gurrehmat-oberoi/assignment2API1#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.0.0"
+  },
+  "dependencies": {
+    "hapi": "^17.8.3",
+    "joi": "^14.3.1"
+  }
+}
