@@ -1,12 +1,12 @@
 const Hapi = require('hapi');
-const ping = require('./src/routes/ping');
+const routes = require('./src/routes');
 
 const server = new Hapi.Server({
   port: 8081,
   host: 'localhost',
 });
 
-server.route(ping);
+server.route(routes);
 
 if (!module.parent) {
   server.start();
